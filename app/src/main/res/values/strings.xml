@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVVM Note app</string>
+    <string name="title">Title</string>
+    <string name="note">note</string>
+    <string name="date">date</string>
+    <string name="start_typing">start typing ...</string>
+</resources>
