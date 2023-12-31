@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/single_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
@@ -13,15 +14,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/title_textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
             android:text="@string/title"/>
         <TextView
+            android:id="@+id/note_textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/note"/>
         <TextView
+            android:id="@+id/date_textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/date"/>
